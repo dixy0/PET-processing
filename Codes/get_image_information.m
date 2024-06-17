@@ -1,3 +1,8 @@
+% PET processing
+% Obtain information about the PET image from the json, image header, and
+% TSV files
+% Xin Di, June 17, 2024
+
 clear
 
 % Read PET information json file
