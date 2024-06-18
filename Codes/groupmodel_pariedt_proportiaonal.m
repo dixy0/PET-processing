@@ -8,7 +8,7 @@ clear matlabbatch
 subjfolder = dir('C:\PET_Munich\Analysis\sub*');
 
 
-matlabbatch{1}.spm.stats.factorial_design.dir = {'C:\PET_Munich\Analysis\group\Open_closed'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'C:\PET_Munich\Group_analysis\Open_closed'};
 
 for subji = 1:length(subjfolder)
     matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(subji).scans = {['C:\PET_Munich\Analysis\' subjfolder(subji).name '\ses-open\pet\swmean' subjfolder(subji).name '_ses-open_task-rest_pet.nii,1']
