@@ -32,7 +32,7 @@ y = spm_read_vols(v);
 
 % Select the middle sagittal slices for all the frames
 I = squeeze(y(size(y,1)/2,:,:,:));
-% Rotate the matrices for diaplay
+% Rotate the matrices for display
 J = imrotate(I,90);
 
 % Plot all the frames using montage
